@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.minws</groupId>
-	<artifactId>webservice</artifactId>
+	<artifactId>ws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>min-webservice</name>
+	<name>min-ws</name>
 	<url>http://www.minws.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,14 +20,14 @@
 			</activation>
 			<properties>
 			    <log4j.rootLogger>WARN, stdout, file</log4j.rootLogger>
-				<config.name>webservice.config.properties</config.name>
+				<config.name>ws.config.properties</config.name>
 			</properties>
 		</profile>
 		<profile>
 			<id>ace</id>
 			<properties>
 			    <log4j.rootLogger>WARN, stdout, file, aceAppender</log4j.rootLogger>
-				<config.name>webservice.config.properties</config.name>
+				<config.name>ws.config.properties</config.name>
 			</properties>
 		</profile>
 	</profiles>
