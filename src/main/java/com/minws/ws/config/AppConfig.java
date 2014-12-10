@@ -21,7 +21,7 @@ public class AppConfig extends JFinalConfig {
 	 * 配置常量
 	 */
 	public void configConstant(Constants me) {
-		me.setDevMode(ProsMap.getBooPro("wish.devMode"));
+		me.setDevMode(ProsMap.getBooPro("ws.devMode"));
 		me.setViewType(ViewType.JSP); 							// 设置视图类型为Jsp，否则默认为FreeMarker
 	}
 	
